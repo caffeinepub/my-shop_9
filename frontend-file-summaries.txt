@@ -1,0 +1,19 @@
+{
+  "frontend/src/index.css": "Global styles with a baby pink babydoll OKLCH color palette (rose/pink primary, blush backgrounds, lavender-pink accents), Nunito and Pacifico font imports, and full light/dark mode token definitions.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with Nunito/Pacifico font families, baby pink color tokens, generous rounded border-radius values, pink-tinted card shadow utilities, and a float animation for the babydoll aesthetic.",
+  "frontend/src/contexts/CartContext.tsx": "React context and provider for session-persistent cart state, exposing add/remove/updateQuantity/clearCart functions and computed totalItems/totalPrice.",
+  "frontend/src/hooks/useQueries.ts": "All React Query hooks for backend integration — product CRUD (getAllProducts, getProduct, addProduct, updateProduct, deleteProduct) and order operations (getAllOrders, createOrder, updateOrderStatus).",
+  "frontend/src/lib/utils.ts": "Utility helpers including cn() for class merging, formatPrice() for bigint-to-USD conversion (cents), formatDate(), and now() for ISO timestamps.",
+  "frontend/src/components/Layout.tsx": "App shell with sticky header featuring the new Dondon's little luxuries logo image, pill-shaped nav links, pink cart button, and footer with \"Dondon's little luxuries\" branding and caffeine.ai attribution.",
+  "frontend/src/components/ProductCard.tsx": "Reusable product card with image, title, price, category badge, stock status, hover effects, and Add to Cart button wired to CartContext.",
+  "frontend/src/components/ProductForm.tsx": "Controlled form for adding/editing products with validation, price/stock conversion between display and bigint storage, and loading state.",
+  "frontend/src/components/OrdersTable.tsx": "Responsive orders table showing buyer info, items, total, date, and an inline status dropdown that calls updateOrderStatus on change.",
+  "frontend/src/pages/ProductsPage.tsx": "Storefront page with hero banner image, \"Dondon's little luxuries\" hero text with Pacifico font, rounded-pill search/filter controls, and cute babydoll-themed empty states and copy.",
+  "frontend/src/pages/ProductDetailPage.tsx": "Full product detail view with large image, description, price, stock count, category badge, and Add to Cart button; handles loading and not-found states.",
+  "frontend/src/pages/CartPage.tsx": "Shopping cart page with item list, quantity controls, remove buttons, per-item subtotals, order summary sidebar, and Proceed to Checkout navigation.",
+  "frontend/src/pages/CheckoutPage.tsx": "Checkout form collecting buyer name and email, order summary panel, and form submission that creates an order via backend and navigates to confirmation.",
+  "frontend/src/pages/OrderConfirmationPage.tsx": "Post-checkout success page showing order ID, buyer name, total, and status with navigation back to shop or seller dashboard.",
+  "frontend/src/pages/SellerDashboardPage.tsx": "Seller dashboard with stats cards, tabbed Products/Orders sections, product grid with edit/delete actions, and dialogs for add/edit/delete confirmation.",
+  "frontend/src/App.tsx": "TanStack Router setup with all routes (/, /product/$id, /cart, /checkout, /order-confirmation, /seller) wrapped in CartProvider and Layout via root route.",
+  "frontend/index.html": "HTML entry point with the browser tab title updated to \"Dondon's little luxuries\"."
+}

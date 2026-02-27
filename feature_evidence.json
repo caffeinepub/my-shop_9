@@ -1,0 +1,25 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-all-instances-of-the-shop-name-from-dondon-s-core-to-dondon-s-little-luxuries-across-the-entire-frontend-including-the-sticky-header-in-layout-tsx-the-browser-tab-title-in-index-html-the-footer-branding-and-any-other-text-references-without-changing-any-colors-fonts-spacing-or-visual-design",
+      "featureTitle": "Update all instances of the shop name from 'Dondon's Core' to 'Dondon's little luxuries' across the entire frontend — including the sticky header in Layout.tsx, the browser tab title in index.html, the footer branding, and any other text references — without changing any colors, fonts, spacing, or visual design.",
+      "files": [
+        "frontend/index.html",
+        "frontend/src/components/Layout.tsx",
+        "frontend/src/pages/ProductsPage.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

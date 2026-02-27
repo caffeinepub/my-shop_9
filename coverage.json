@@ -1,0 +1,44 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-27T06:48:41.516Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-11",
+        "summary": "Update all instances of the shop name from 'Dondon's Core' to 'Dondon's little luxuries' across the entire frontend — including the sticky header in Layout.tsx, the browser tab title in index.html, the footer branding, and any other text references — without changing any colors, fonts, spacing, or visual design.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/index.html",
+          "frontend/src/components/Layout.tsx",
+          "frontend/src/pages/ProductsPage.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/index.html",
+          "frontend/src/components/Layout.tsx",
+          "frontend/src/pages/ProductsPage.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/index.html",
+    "frontend/public/assets/generated/logo-dondon-luxuries.dim_400x120.png",
+    "frontend/src/components/Layout.tsx",
+    "frontend/src/pages/ProductsPage.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

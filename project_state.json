@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "A shopping app where the user can list and sell their own products. The app is themed with a baby pink, babydoll-inspired cutesy aesthetic with pastel tones and playful typography. The shop is named 'Dondon's little luxuries'.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Cute baby pink babydoll-style wordmark logo reading 'Dondon's little luxuries' with playful pastel pink tones and soft bubbly lettering on a transparent background (logo-dondon-luxuries.dim_400x120.png)",
+  "existing_features": [
+    {
+      "id": "feature-build-a-product-listing-page-that-displays-all-available-products-in-a-grid-layout-with-product-image-title-price-and-an-add-to-cart-button-include-category-filtering-and-a-search-bar",
+      "title": "Build a product listing page that displays all available products in a grid layout with product image, title, price, and an 'Add to Cart' button. Include category filtering and a search bar.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-product-detail-page-accessible-by-clicking-a-product-from-the-listing-display-the-product-image-full-description-price-stock-availability-category-and-an-add-to-cart-button",
+      "title": "Build a product detail page accessible by clicking a product from the listing. Display the product image, full description, price, stock availability, category, and an 'Add to Cart' button.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-shopping-cart-feature-stored-in-frontend-state-users-can-add-products-adjust-quantities-remove-items-and-view-a-running-total-include-a-checkout-flow-with-a-form-for-buyer-name-and-email-that-submits-an-order-to-the-backend",
+      "title": "Implement a shopping cart feature stored in frontend state. Users can add products, adjust quantities, remove items, and view a running total. Include a checkout flow with a form for buyer name and email that submits an order to the backend.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-seller-dashboard-page-where-the-seller-can-add-new-products-with-title-description-price-stock-category-and-image-url-edit-and-delete-existing-products-view-a-list-of-all-incoming-orders-with-buyer-details-order-items-total-and-status-and-update-order-status-pending-fulfilled-or-cancelled",
+      "title": "Build a Seller Dashboard page where the seller can: add new products with title, description, price, stock, category, and image URL; edit and delete existing products; view a list of all incoming orders with buyer details, order items, total, and status; and update order status (pending → fulfilled or cancelled).",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-warm-modern-marketplace-visual-theme-earthy-tones-terracotta-warm-beige-soft-cream-with-clean-sans-serif-typography-generous-card-spacing-subtle-shadows-and-smooth-hover-transitions-use-this-theme-consistently-across-all-pages-including-the-storefront-and-seller-dashboard",
+      "title": "Apply a warm, modern marketplace visual theme: earthy tones (terracotta, warm beige, soft cream) with clean sans-serif typography, generous card spacing, subtle shadows, and smooth hover transitions. Use this theme consistently across all pages including the storefront and seller dashboard.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-generated-static-image-assets-logo-and-hero-banner-from-frontend-public-assets-generated-in-the-app-header-and-storefront-hero-section",
+      "title": "Render generated static image assets (logo and hero banner) from frontend/public/assets/generated in the app header and storefront hero section.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-retheme-the-entire-app-with-a-baby-pink-babydoll-inspired-cutesy-aesthetic-replace-the-current-warm-earthy-color-palette-with-soft-baby-pink-blush-and-pastel-rose-tones-throughout-all-pages-use-playful-rounded-sans-serif-or-bubbly-typography-add-whimsical-details-such-as-soft-rounded-corners-delicate-shadows-pastel-pink-buttons-and-light-pink-card-backgrounds-apply-the-theme-consistently-across-the-storefront-product-detail-cart-checkout-order-confirmation-and-seller-dashboard-pages",
+      "title": "Retheme the entire app with a baby pink, babydoll-inspired cutesy aesthetic. Replace the current warm/earthy color palette with soft baby pink, blush, and pastel rose tones throughout all pages. Use playful, rounded sans-serif or bubbly typography. Add whimsical details such as soft rounded corners, delicate shadows, pastel pink buttons, and light pink card backgrounds. Apply the theme consistently across the storefront, product detail, cart, checkout, order confirmation, and seller dashboard pages.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-shop-name-displayed-in-the-header-browser-tab-title-and-any-branding-locations-to-dondon-s-core",
+      "title": "Update the shop name displayed in the header, browser tab title, and any branding locations to 'Dondon's Core'.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-generate-a-new-logo-and-hero-banner-image-that-match-the-baby-pink-babydoll-aesthetic-for-dondon-s-core-and-render-them-as-static-assets-in-the-app-header-and-storefront-hero-section",
+      "title": "Generate a new logo and hero banner image that match the baby pink babydoll aesthetic for 'Dondon's Core', and render them as static assets in the app header and storefront hero section.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-all-instances-of-the-shop-name-from-dondon-s-core-to-dondon-s-little-luxuries-across-the-entire-frontend-including-the-sticky-header-in-layout-tsx-the-browser-tab-title-in-index-html-the-footer-branding-and-any-other-text-references-without-changing-any-colors-fonts-spacing-or-visual-design",
+      "title": "Update all instances of the shop name from 'Dondon's Core' to 'Dondon's little luxuries' across the entire frontend — including the sticky header in Layout.tsx, the browser tab title in index.html, the footer branding, and any other text references — without changing any colors, fonts, spacing, or visual design.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Product listing page where user can add/manage their own products",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Product detail page with images, description, and price",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Shopping cart and checkout flow",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Seller dashboard to manage inventory and orders",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Create a backend data model and actor supporting: products (id, title, description, price, imageUrl, stock, category, sellerId, createdAt), orders (id, items, buyerName, buyerEmail, totalPrice, status, createdAt), and a cart session. Expose CRUD operations for products and order management.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Retheme the entire app with a baby pink, babydoll-inspired cutesy aesthetic: pastel pink tones, playful fonts, soft rounded elements, and whimsical details throughout all pages",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Change the logo and shop name to 'Dondon's little luxuries' without changing any design, font styles, or colors",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "My Shop",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

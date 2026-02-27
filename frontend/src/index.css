@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Pacifico&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 1rem;
+
+    /* Baby pink babydoll palette */
+    --background: 0.97 0.018 355;
+    --foreground: 0.28 0.06 345;
+
+    --card: 0.99 0.010 355;
+    --card-foreground: 0.28 0.06 345;
+
+    --popover: 0.99 0.010 355;
+    --popover-foreground: 0.28 0.06 345;
+
+    /* Hot pink / rose primary */
+    --primary: 0.62 0.20 350;
+    --primary-foreground: 0.99 0.005 355;
+
+    /* Blush secondary */
+    --secondary: 0.93 0.035 355;
+    --secondary-foreground: 0.40 0.10 345;
+
+    --muted: 0.94 0.022 355;
+    --muted-foreground: 0.55 0.07 345;
+
+    /* Soft lavender-pink accent */
+    --accent: 0.90 0.045 320;
+    --accent-foreground: 0.35 0.10 340;
+
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0 0;
+
+    --border: 0.88 0.040 355;
+    --input: 0.88 0.040 355;
+    --ring: 0.62 0.20 350;
+
+    --chart-1: 0.72 0.18 350;
+    --chart-2: 0.78 0.14 320;
+    --chart-3: 0.68 0.16 10;
+    --chart-4: 0.82 0.12 340;
+    --chart-5: 0.75 0.20 360;
+
+    --sidebar: 0.96 0.022 355;
+    --sidebar-foreground: 0.28 0.06 345;
+    --sidebar-primary: 0.62 0.20 350;
+    --sidebar-primary-foreground: 0.99 0.005 355;
+    --sidebar-accent: 0.90 0.045 320;
+    --sidebar-accent-foreground: 0.35 0.10 340;
+    --sidebar-border: 0.88 0.040 355;
+    --sidebar-ring: 0.62 0.20 350;
+  }
+
+  .dark {
+    --background: 0.20 0.04 345;
+    --foreground: 0.95 0.018 355;
+
+    --card: 0.24 0.04 345;
+    --card-foreground: 0.95 0.018 355;
+
+    --popover: 0.26 0.04 345;
+    --popover-foreground: 0.95 0.018 355;
+
+    --primary: 0.75 0.18 350;
+    --primary-foreground: 0.20 0.04 345;
+
+    --secondary: 0.30 0.05 345;
+    --secondary-foreground: 0.92 0.018 355;
+
+    --muted: 0.30 0.04 345;
+    --muted-foreground: 0.68 0.06 355;
+
+    --accent: 0.34 0.06 320;
+    --accent-foreground: 0.92 0.018 355;
+
+    --destructive: 0.704 0.191 22.216;
+    --destructive-foreground: 0.205 0 0;
+
+    --border: 1 0 0 / 12%;
+    --input: 1 0 0 / 15%;
+    --ring: 0.75 0.18 350;
+
+    --sidebar: 0.24 0.04 345;
+    --sidebar-foreground: 0.95 0.018 355;
+    --sidebar-primary: 0.75 0.18 350;
+    --sidebar-primary-foreground: 0.20 0.04 345;
+    --sidebar-accent: 0.34 0.06 320;
+    --sidebar-accent-foreground: 0.92 0.018 355;
+    --sidebar-border: 1 0 0 / 12%;
+    --sidebar-ring: 0.75 0.18 350;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}

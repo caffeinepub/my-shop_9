@@ -1,0 +1,44 @@
+{
+  "kind": "build_request",
+  "title": "Update shop name and logo to 'Dondon's little luxuries'",
+  "projectName": "Dondon's Little Luxuries",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "text": "Update all instances of the shop name from 'Dondon's Core' to 'Dondon's little luxuries' across the entire frontend — including the sticky header in Layout.tsx, the browser tab title in index.html, the footer branding, and any other text references — without changing any colors, fonts, spacing, or visual design.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ],
+        "quotes": [
+          "Please change the logo and name into \"Dondon's little luxuries\" without changing any design or colors."
+        ]
+      },
+      "acceptanceCriteria": [
+        "The browser tab title reads 'Dondon's little luxuries'",
+        "The header logo/brand text reads 'Dondon's little luxuries'",
+        "The footer branding reads 'Dondon's little luxuries'",
+        "No colors, font styles, font sizes, spacing, shadows, or layout are altered",
+        "No other UI elements are changed"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not change any colors, font styles, typography, spacing, shadows, or visual design",
+    "Only update the shop name and logo text — no other UI modifications"
+  ],
+  "nonGoals": [
+    "Changing any color palette or theme tokens",
+    "Modifying font families or sizes",
+    "Altering layout, card styles, or component structure",
+    "Backend changes"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Cute baby pink babydoll-style wordmark logo reading 'Dondon's little luxuries' with playful pastel pink tones and soft bubbly lettering on a transparent background (logo-dondon-luxuries.dim_400x120.png)"
+    ],
+    "edits": []
+  }
+}

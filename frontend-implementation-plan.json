@@ -1,0 +1,35 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update shop name and logo to 'Dondon's little luxuries'",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "summary": "Update all instances of the shop name from 'Dondon's Core' to 'Dondon's little luxuries' across the entire frontend without changing any colors, fonts, spacing, or visual design",
+      "acceptanceCriteria": [
+        "The browser tab title reads 'Dondon's little luxuries'",
+        "The header logo/brand text reads 'Dondon's little luxuries'",
+        "The footer branding reads 'Dondon's little luxuries'",
+        "No colors, font styles, font sizes, spacing, shadows, or layout are altered",
+        "No other UI elements are changed"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Update the <title> tag from 'Dondon's Core' to 'Dondon's little luxuries' to change the browser tab title without modifying any other HTML structure or metadata"
+        },
+        {
+          "path": "frontend/src/components/Layout.tsx",
+          "operation": "modify",
+          "description": "Replace the header logo text 'Dondon's Core' with 'Dondon's little luxuries' and wire in the generated logo image frontend/public/assets/generated/logo-dondon-luxuries.dim_400x120.png as a static asset in the header branding section. Update the footer branding text from 'Dondon's Core' to 'Dondon's little luxuries'. Preserve all existing className attributes, Tailwind utility classes, layout structure, colors, font families, font sizes, spacing, and styling exactly as they are"
+        },
+        {
+          "path": "frontend/src/pages/ProductsPage.tsx",
+          "operation": "modify",
+          "description": "Update any text references to 'Dondon's Core' in the hero banner or page content to 'Dondon's little luxuries' without changing any styling, layout, or other UI elements"
+        }
+      ]
+    }
+  ]
+}
